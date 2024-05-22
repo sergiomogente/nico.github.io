@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- 3.1.1 El idioma principal de la página deberá estar identificado utilizando el atributo lang de HTML (por ejemplo, <HTML lang="es">) -->
+<html> 
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forn de Pa</title>
+  <link rel="stylesheet" href="estil.css">
+</head>
+
+<body>
+  <header>
+    <div class="divGeneralMenu">
+      <img src="./logo.png">
+      <button>Menu</button>
+    </div>
+  </header>
+
+  <!-- 4.1.1 Se deberán evitar los errores de sintaxis de HTML/XHTML. El código puede comprobarse, analizarse y validarse a través de http://validator.w3.org/ -->
+  <!-- 4.1.2 Deberá utilizar el marcado de tal forma que se facilite incluye el seguir las especificaciones oficiales de HTML/XHTML, utilizando la gramática formal de forma apropiada -->
+
+  <!-- 2.4.2 La página web deberá tener un título descriptivo e informativo de la misma. -->
+
+  <!-- 2.4.10 Además de proporcionar un documento con la estructura global del sitio, cada una de las secciones de contenido deberán ser designadas mediante encabezados (títulos), donde sea oportuno -->
+  <div class="divGeneralGaleria">
+    <div class="gallery">
+      <div class="row">
+        <img src="galeria1.jpg" alt="">
+        <img src="galeria2.jpg" alt="">
+        <img src="galeria3.jpg" alt="">
+      </div>
+      <div class="row">
+        <img src="galeria4.jpg" alt="">
+        <img src="galeria5.jpg" alt="">
+        <img src="galeria6.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- 1.3.1 Información y relaciones - Las etiquetas (label) textuales se asociarán con sus campos (input) correspondientes en los formularios. Los elementos de los formularios que estén relacionados se agruparán mediante fieldset/legend. -->
+  <!-- 2.4.10 Además de proporcionar un documento con la estructura global del sitio, cada una de las secciones de contenido deberán ser designadas mediante encabezados (títulos), donde sea oportuno -->
+  <div class="divGeneralContacte">
+    <!-- 3.3.1 Si se usa la validación de datos de los formularios (del lado del cliente o del servidor), ofrezca la información sobre los errores y avisos de forma eficiente, intuitiva y accesible. Los errores deben estar claramente identificados, ofrecer un acceso rápido al elemento problemático, permitir que el usuario pueda fácilmente solucionar el error y reenviar los datos del formulario. -->
+    <!-- 3.3.1 Ofrezca información al usuario sobre los campos obligatorios de un formulario, o aquellos que necesitan un formato, valor o longitud específica, utilizando el elemento<label> (si éste no está disponible ponga la información en el atributo de título title del elemento). -->
+    <!-- 2.4.3 El orden de la navegación por los enlaces, elementos de lo formularios, etc. deberá ser lógico e intuitivo. -->
+    <form id="formContacte">
+      <!-- 1.1 - Los botones de los formularios tendrán nombres (value) descriptivos -->
+      <input type="number">
+      <!-- 3.2.1 Cuando un elemento reciba el foco no se deberá iniciar un cambio en la página que confunda o desoriente al usuario. -->
+      <button>Enviar</button>
+      <input type="text">
+      <input type="text">
+    </form>
+</div>
+
+  <!-- 1.4.3 En los textos grandes (de más de 18 puntos o 14 puntos en negrita) y las imágenes de texto grandes la relación de contraste debe ser de al menos 3:1. -->
+  <!-- 2.4.1 Si una página cuenta con una estructura adecuada de encabezados, puede considerarse una técnica suficiente en lugar de un enlace del tipo "Ir al contenido principal". Tenga en cuenta que la navegación por encabezados todavía no está soportada en todos los navegadores. -->
+  <div class="divGeneralIntroduccio">
+    <div>
+      <h2>LA MILLOR QUALITAT A PROP TEU</h1>
+    </div>
+    <div>
+      <p>ELABORANT MÉS DE 50 ANYS EL VOSTRE, EL PA DE CASA, EL DEL BARRI!</p>
+      <P>VINE A LA NOSTRE FORN I COMPRA'L</P>
+    </div>
+  </div>
+
+  <!-- 2.4.10 Además de proporcionar un documento con la estructura global del sitio, cada una de las secciones de contenido deberán ser designadas mediante encabezados (títulos), donde sea oportuno -->
+  <!-- 1.3.1 - Las tablas se usarán para marcar los datos tabulados. Las celdas de datos (<td>) se asociarán con sus encabezados (<th>) donde sea necesario. -->
+  <div class="divGeneralTaula">
+    <table>
+      <tr>
+        <th>Panadería</th>
+        <th>Ventas Mensuales (en dólares)</th>
+        <th>Cantidad de Clientes Atendidos por Día</th>
+      </tr>
+      <tr>
+        <td>Mi Panadería</td>
+        <td>3000</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Panadería A</td>
+        <td>5000</td>
+        <td>80</td>
+      </tr>
+      <tr>
+        <td>Panadería B</td>
+        <td>4000</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>Panadería C</td>
+        <td>6000</td>
+        <td>70</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- 2.4.10 Además de proporcionar un documento con la estructura global del sitio, cada una de las secciones de contenido deberán ser designadas mediante encabezados (títulos), donde sea oportuno -->
+  <div class="divGeneralTextProductes">
+    <!-- 1.4.8 Tendrán un interlineado (de al menos la mitad de la altura del texto) y espacio entre párrafos (1.5 veces la medida del interlineado) adecuado. -->
+    <!-- 1.4.8 No estarán justificados a ambos lados (alineados los márgenes izquierdoy derecho) -->
+    <p>Como panadería, nos enorgullecemos de ofrecer una amplia variedad de panes frescos y deliciosos. Desde panes
+      tradicionales hasta opciones artesanales, todos hechos con ingredientes de la mejor calidad para satisfacer todos
+      los gustos y necesidades. ¡Ven y descubre nuestras especialidades!
+    </p>
+    <p>En nuestra panadería, ofrecemos una deliciosa selección de productos, incluyendo croissants, bocadillos, donuts y
+      más. Todos elaborados con ingredientes frescos y de alta calidad para satisfacer tus antojos y necesidades
+      diarias.
+    </p>
+  </div>
+  <!-- 1.4.6 El texto o las imágenes de texto deben tener una relación de contraste de al menos 7:1. -->
+  <div class="divGeneralProductes">
+    <div class="divProductePa">
+      <img src="pa1.png">
+      <h2>Pan Integral</h2>
+      <!-- 1.4.1 Los enlaces deben distinguirse de los elementos y texto que les rodean. Si utiliza el color para diferenciar los enlaces, use una forma adicional para distinguirlos. (por ejemplo, se subrayan cuando reciben el foco). -->
+      <p>https://freshis.com/products/barra-integral-centeno</p>
+    </div>
+    <div class="divProductePa">
+      <img src="pa2.png">
+      <h2>Pan de Centeno</h2>
+      <!-- 1.4.1 Los enlaces deben distinguirse de los elementos y texto que les rodean. Si utiliza el color para diferenciar los enlaces, use una forma adicional para distinguirlos. (por ejemplo, se subrayan cuando reciben el foco). -->
+      <p>https://freshis.com/products/barra-integral-centeno</p>
+    </div>
+    <div class="divProductePa">
+      <img src="pa3.png">
+      <h2>Pan de Vidrio</h2>
+      <!-- 1.4.1 Los enlaces deben distinguirse de los elementos y texto que les rodean. Si utiliza el color para diferenciar los enlaces, use una forma adicional para distinguirlos. (por ejemplo, se subrayan cuando reciben el foco). -->
+      <p>https://freshis.com/products/barra-integral-centeno</p>
+    </div>
+  </div>
+
+  <!-- 2.4.10 Además de proporcionar un documento con la estructura global del sitio, cada una de las secciones de contenido deberán ser designadas mediante encabezados (títulos), donde sea oportuno -->
+  <!-- 2.3.1 No deberá crear contenidos que destellen más de tres veces por segundo a menos que el parpadeo sea lo suficientemente pequeño, los destellos sean de bajo contraste y no contengan demasiado rojo -->
+  <div class="divGeneralContacteOrganitzadors">
+    <div class="divOrganitzador">
+      <h3>Nicolau Humet</h3>
+      <p>Correu: organitzador1@correu.com</p>
+      <p>Telèfon: 123456789</p>
+    </div>
+    <div class="divOrganitzador">
+      <h3>Pau Gorlle</h3>
+      <p>Correu: organitzador2@correu.com</p>
+      <p>Telèfon: 987654321</p>
+    </div>
+  </div>
+
+  <!-- 1.4.3 En los textos grandes (de más de 18 puntos o 14 puntos en negrita) y las imágenes de texto grandes la relación de contraste debe ser de al menos 3:1. -->
+  <!-- 3.1.2 El idioma principal de la página deberá estar identificado utilizando el atributo lang de HTML (por ejemplo, <HTML lang="es">) -->
+  <div class="divGeneralTextAngles">
+    <h3>PASSION FOR BREAD</h3>
+    <p>More than 100 years passionate about artisanal bread, pastry and good food</p>
+  </div>
+
+  <div class="divGeneralTextExplicatiu">
+    <p>Més de 100 anys apassionats de l'aroma del cafè, els aliments saludables, els més petits detalls i especialment de les persones. Amb un enfocament centrado en la qualitat i la satisfacció dels nostres clients, continuem compromesos a oferir experiències culinàries que perdurin en el temps. La nostra dedicació a la frescor dels ingredients i a la creativitat en la preparació dels nostres plats és el que ens distingeix.</p>
+  </div>
+</body>
+
+</html>
